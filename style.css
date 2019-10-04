@@ -1,74 +1,41 @@
 body {
-    background-color: grey
+    background-color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
 }
-table.table1, th {
-    border: 1px white
+header, nav, section, aside, footer {
+    background-color: #ebebeb;
+    margin-bottom: 10px;
 }
-table.table1 {
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+article {
+    background-color:#777;
+    color: #ebebeb;
+    padding: 10px;
 }
-table.table1, th {
-    border-collapse: collapse;
+h1, p {
+    color: #777;
+    background-color: #ebebeb;
+    padding: 10px;
 }
-table.table1, th {
-    width: 80%;
+section {
+    width: 495px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
 }
-table.table1, th {
-    height: 70px;
+aside {
+    text-align: center;
+    width: 420px;
+    height: 280px;
+    float: right;
 }
-table.table1, th {
-    color: grey;
+footer, header, nav {
+    padding: 2px;
+    text-align: center;
 }
-table.table1, th {
-    font-weight: normal;
-}
-table.table1 {
-    margin-bottom: -12px;
-}
-table.table2, th {
-    border: 1px white;
-}
-table.table2 {
-    background-color: white;
-    width:80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-table.table2, th {
-    border-collapse: collapse;
-}
-table.table2, th {
-    height: 70px;
-}
-table.table2, th {
-    color: grey;
-}
-table.table2, th {
-    font-weight: normal;
-}
-table.table2,th {
-    color: grey;
-}
-table.table2 {
-    margin-bottom: -5px;
-}
-table.table3, th {
-    color: grey;
-    border-collapse: collapse;
-    border: 10px solid grey;
-}
-table.table3 {
-    background-color: white;
-    height: 230px;
-    border-collapse: collapse;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-th.section {
-    width: 1000px;
-}
-th.aside {
-    width: 800px;
+
+footer {
+    clear: both;
 }
